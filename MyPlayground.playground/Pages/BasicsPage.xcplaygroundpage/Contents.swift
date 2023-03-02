@@ -41,3 +41,32 @@ case "Argentina":
 default:
     print("Ninguna")
 }
+// optionals
+
+var nombre: String?
+print(nombre)
+nombre = "Emiliano"
+
+// optional binding
+if let firstName = nombre{
+    print("El nombre es:", firstName)
+} else {
+    print("No es igual")
+}
+
+// change data type to other
+
+let num1 = 10
+let num2 = "20"
+let suma = Int(num2)! + num1
+print(suma)
+
+if let val1 = Int(num2) {
+    let sumar = val1 + num1
+    print(sumar)
+}
+
+let names = ["Emiliano", "Valentin", "Juan Cruz", "Milo"]
+for listNames in names {
+    print(listNames)
+}
