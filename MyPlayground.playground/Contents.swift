@@ -1,4 +1,5 @@
 import UIKit
 
-var greeting = "Hello, playground"
-dwdadawawdwa
+var greeting = "Hello Swift"
+print(greeting)
+
